@@ -6,13 +6,15 @@ setNoMoreData
 setHasMoreData
 原XListView参考链接：https://github.com/Maxwin-z/XListView-Android
 
-重点在于
+重点在于ParallaxXListview
 
 	public void computeScroll() {
 		if (mScroller.computeScrollOffset()) {
 			if (mScrollBack == SCROLLBACK_HEADER) {
 			//改变header layout 高度
 				mHeaderView.setVisiableHeight(mScroller.getCurrY());
+	
+和parallaxxlistview_header.xml
 				
 	<ImageView
             android:id="@+id/iv_pic"
