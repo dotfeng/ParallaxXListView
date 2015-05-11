@@ -7,7 +7,8 @@ setHasMoreData
 原XListView参考链接：https://github.com/Maxwin-z/XListView-Android
 
 重点在于
-public void computeScroll() {
+
+	public void computeScroll() {
 		if (mScroller.computeScrollOffset()) {
 			if (mScrollBack == SCROLLBACK_HEADER) {
 			//改变header layout 高度
